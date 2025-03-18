@@ -1,0 +1,3442 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/jg898/Dropbox/prediction_YL/2_processed//final_datasets/codebooks/codebook_vietnam.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 8 Dec 2024, 18:41:49
+{txt}
+{com}. use "$procesed_path/final_datasets/vietnam_finaldataset.dta", clear
+{txt}
+{com}. codebook
+
+{txt}{hline}
+{res}CHILDCODE{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}long{txt})
+
+{col 18}Range: [{res}10001{txt},{res}200148{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}1,891{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:103315}
+{txt}{col 14}Std. dev.: {res}{ralign 7:57262.8}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:20125}{ralign 10:   50096}{ralign 10:  100094}{ralign 10:  150083}{ralign 10:  180104}
+
+{txt}{hline}
+{res}agemon1{right:1 agemon}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}int{txt})
+{ralign 22:Label}: {res:agemon}, but {res:14} nonmissing values are not labeled
+
+{col 18}Range: [{res}5{txt},{res}18{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}14{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}9{col 31}{txt}
+{ralign 23: }{col 25}{res}11{col 31}{txt}
+{ralign 23: }{col 25}{res}13{col 31}{txt}
+{ralign 23: }{col 25}{res}15{col 31}{txt}
+
+{txt}{hline}
+{res}aniany1{right:1 aniany}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       621{col 32}0
+{col 20}     1,270{col 32}1
+
+{txt}{hline}
+{res}bcg1{right:1 bcg}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:bcg}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}202{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       185{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,504{col 32}       1{col 42}{txt}yes
+{col 20}{res}       202{col 32}       .{col 42}
+
+{txt}{hline}
+{res}bmi1{right:1 bmi}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}8.8181934{txt},{res}24.770124{txt}]{col 55}Units: {res}1.000e-07
+{col 10}{txt}Unique values: {res}1,453{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:16.0585}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1.39208}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:14.4928}{ralign 10: 15.1216}{ralign 10: 15.9439}{ralign 10: 16.8259}{ralign 10: 17.7756}
+
+{txt}{hline}
+{res}careage1{right:1 careage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}15{txt},{res}72{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}42{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:27.3665}
+{txt}{col 14}Std. dev.: {res}{ralign 7:6.23835}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:20}{ralign 10:      23}{ralign 10:      26}{ralign 10:      31}{ralign 10:      36}
+
+{txt}{hline}
+{res}carecantread1{right:1 carecantread}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:carecantread}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,648{col 32}       0{col 42}{txt}no
+{col 20}{res}       243{col 32}       1{col 42}{txt}yes
+
+{txt}{hline}
+{res}caredu1{right:1 caredu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:caredu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}15{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}0{col 31}{txt}None
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}9{col 31}{txt}Grade 9
+
+{txt}{hline}
+{res}caregiver_is_female1{right:1 caregiver_is_female}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}         9{col 32}0
+{col 20}     1,882{col 32}1
+
+{txt}{hline}
+{res}caregiver_is_parent1{right:1 caregiver_is_parent}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        16{col 32}0
+{col 20}     1,875{col 32}1
+
+{txt}{hline}
+{res}cd1{right:1 cd_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1.000e-08
+{col 10}{txt}Unique values: {res}10{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.3472}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.206349}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.111111}{ralign 10: .222222}{ralign 10: .333333}{ralign 10: .444444}{ralign 10: .666667}
+
+{txt}{hline}
+{res}chethnic1{right:1 chethnic}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chethnic}
+
+{col 18}Range: [{res}10{txt},{res}48{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}8{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        66{col 32}      10{col 42}{txt}Other
+{col 20}{res}     1,620{col 32}      41{col 42}{txt}Kinh
+{col 20}{res}       101{col 32}      42{col 42}{txt}H'Mong
+{col 20}{res}         1{col 32}      44{col 42}{txt}Ede
+{col 20}{res}         6{col 32}      45{col 42}{txt}Bana
+{col 20}{res}        29{col 32}      46{col 42}{txt}Nung
+{col 20}{res}        33{col 32}      47{col 42}{txt}Tay
+{col 20}{res}        35{col 32}      48{col 42}{txt}Dao
+
+{txt}{hline}
+{res}chheight1{right:1 chheight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+{ralign 22:Label}: {res:chheight}, but {res:217} nonmissing values are not labeled
+
+{col 18}Range: [{res}57.2{txt},{res}97.6{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}217{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}68.400002{col 31}{txt}
+{ralign 23: }{col 25}{res}71{col 31}{txt}
+{ralign 23: }{col 25}{res}73.300003{col 31}{txt}
+{ralign 23: }{col 25}{res}76{col 31}{txt}
+
+{txt}{hline}
+{res}chlang1{right:1 chlang}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chlang}
+
+{col 18}Range: [{res}10{txt},{res}49{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        48{col 32}      10{col 42}{txt}other
+{col 20}{res}     1,642{col 32}      41{col 42}{txt}vietnamese
+{col 20}{res}        27{col 32}      43{col 42}{txt}tay
+{col 20}{res}       102{col 32}      44{col 42}{txt}h'mong
+{col 20}{res}        20{col 32}      45{col 42}{txt}nung
+{col 20}{res}        31{col 32}      48{col 42}{txt}dao
+{col 20}{res}        18{col 32}      49{col 42}{txt}giay
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chldrel1{right:1 chldrel}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chldrel}
+
+{col 18}Range: [{res}1{txt},{res}15{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        20{col 32}       1{col 42}{txt}christian
+{col 20}{res}       139{col 32}       3{col 42}{txt}buddhist
+{col 20}{res}        19{col 32}       6{col 42}{txt}protestant
+{col 20}{res}        64{col 32}      11{col 42}{txt}ancestor worship
+{col 20}{res}        24{col 32}      13{col 42}{txt}cao dai
+{col 20}{res}     1,623{col 32}      14{col 42}{txt}none
+{col 20}{res}         1{col 32}      15{col 42}{txt}other
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chweight1{right:1 chweight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+{ralign 22:Label}: {res:chweight}, but {res:78} nonmissing values are not labeled
+
+{col 18}Range: [{res}4.6{txt},{res}14.7{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}78{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}7.4000001{col 31}{txt}
+{ralign 23: }{col 25}{res}8{col 31}{txt}
+{ralign 23: }{col 25}{res}8.6000004{col 31}{txt}
+{ralign 23: }{col 25}{res}9.3000002{col 31}{txt}
+
+{txt}{hline}
+{res}cookingq1{right:1 cookingq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:cookingq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,474{col 32}       0{col 42}{txt}No
+{col 20}{res}       417{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}dadage1{right:1 dadage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadage}, but {res:38} nonmissing values are not labeled
+
+{col 18}Range: [{res}16{txt},{res}55{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}38{col 51}{txt}Missing .: {res}60{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}25{col 31}{txt}
+{ralign 23: }{col 25}{res}28{col 31}{txt}
+{ralign 23: }{col 25}{res}31{col 31}{txt}
+{ralign 23: }{col 25}{res}36{col 31}{txt}
+
+{txt}{hline}
+{res}dadedu1{right:1 dadedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}69{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}0{col 31}{txt}None
+{ralign 23: }{col 25}{res}6{col 31}{txt}Grade 6
+{ralign 23: }{col 25}{res}8{col 31}{txt}Grade 8
+{ralign 23: }{col 25}{res}10{col 31}{txt}Grade 10
+
+{txt}{hline}
+{res}dadlive1{right:1 dadlive}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadlive}
+
+{col 18}Range: [{res}1{txt},{res}3{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}13{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,831{col 32}       1{col 42}{txt}Lives in the household
+{col 20}{res}        43{col 32}       2{col 42}{txt}Does not live in household
+{col 20}{res}         4{col 32}       3{col 42}{txt}Has died
+{col 20}{res}        13{col 32}       .{col 42}
+
+{txt}{hline}
+{res}drwaterq1{right:1 drwaterq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:drwaterq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,733{col 32}       0{col 42}{txt}No
+{col 20}{res}       158{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}elecq1{right:1 elecq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:elecq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       290{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,601{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}female1{right:1 female}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       969{col 32}0
+{col 20}       922{col 32}1
+
+{txt}{hline}
+{res}headage1{right:1 headage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}14{txt},{res}89{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}69{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:37.7969}
+{txt}{col 14}Std. dev.: {res}{ralign 7:13.9217}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:24}{ralign 10:      28}{ralign 10:      33}{ralign 10:      45}{ralign 10:      61}
+
+{txt}{hline}
+{res}headedu1{right:1 headedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}160{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}0{col 31}{txt}None
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}11{col 31}{txt}Grade 11
+
+{txt}{hline}
+{res}headrel1{right:1 headrel}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headrel}
+
+{col 18}Range: [{res}1{txt},{res}6{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,400{col 32}       1{col 42}{txt}Biological parent
+{col 20}{res}         1{col 32}       2{col 42}{txt}Non-biological parent
+{col 20}{res}       475{col 32}       3{col 42}{txt}Grandparent
+{col 20}{res}         6{col 32}       4{col 42}{txt}Uncle/aunt
+{col 20}{res}         9{col 32}       6{col 42}{txt}Other-relative
+
+{txt}{hline}
+{res}headsex1{right:1 headsex}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headsex}
+
+{col 18}Range: [{res}1{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,597{col 32}       1{col 42}{txt}male
+{col 20}{res}       294{col 32}       2{col 42}{txt}female
+
+{txt}{hline}
+{res}hhsize1{right:1 hhsize}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}2{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}13{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:4.90164}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1.84071}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:3}{ralign 10:       4}{ralign 10:       4}{ralign 10:       6}{ralign 10:       7}
+
+{txt}{hline}
+{res}hq1{right:1 hq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}.01282051{txt},{res}1{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}110{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.555413}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.313404}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.041667}{ralign 10: .291667}{ralign 10: .611111}{ralign 10: .824074}{ralign 10: .861111}
+
+{txt}{hline}
+{res}measles1{right:1 measles}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:measles}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}172{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       547{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,172{col 32}       1{col 42}{txt}yes
+{col 20}{res}       172{col 32}       .{col 42}
+
+{txt}{hline}
+{res}momage1{right:1 momage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momage}, but {res:36} nonmissing values are not labeled
+
+{col 18}Range: [{res}15{txt},{res}50{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}36{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}22{col 31}{txt}
+{ralign 23: }{col 25}{res}25{col 31}{txt}
+{ralign 23: }{col 25}{res}28{col 31}{txt}
+{ralign 23: }{col 25}{res}32{col 31}{txt}
+
+{txt}{hline}
+{res}momedu1{right:1 momedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}13{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}0{col 31}{txt}None
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}9{col 31}{txt}Grade 9
+
+{txt}{hline}
+{res}momlive1{right:1 momlive}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momlive}
+
+{col 18}Range: [{res}1{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,888{col 32}       1{col 42}{txt}Lives in the household
+{col 20}{res}         1{col 32}       2{col 42}{txt}Does not live in household
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}numante1{right:1 numante}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:numante}, but {res:12} nonmissing values are not labeled
+
+{col 18}Range: [{res}0{txt},{res}11{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}12{col 51}{txt}Missing .: {res}21{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}1{col 31}{txt}
+{ralign 23: }{col 25}{res}2{col 31}{txt}
+{ralign 23: }{col 25}{res}3{col 31}{txt}
+{ralign 23: }{col 25}{res}4{col 31}{txt}
+
+{txt}{hline}
+{res}ownlandhse1{right:1 ownlandhse}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:ownlandhse}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       444{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,447{col 32}       1{col 42}{txt}yes
+
+{txt}{hline}
+{res}stunting1{right:1 stunting}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:stunting}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}16{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,485{col 32}       0{col 42}{txt}not stunted
+{col 20}{res}       288{col 32}       1{col 42}{txt}moderately stunted
+{col 20}{res}       102{col 32}       2{col 42}{txt}severely stunted
+{col 20}{res}        16{col 32}       .{col 42}
+
+{txt}{hline}
+{res}sv1{right:1 sv_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}.01
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       260{col 32}0
+{col 20}       641{col 32}.25
+{col 20}       662{col 32}.5
+{col 20}       193{col 32}.75
+{col 20}       135{col 32}1
+
+{txt}{hline}
+{res}tetanus1{right:1 tetanus}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:tetanus}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}353{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       298{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,240{col 32}       1{col 42}{txt}yes
+{col 20}{res}       353{col 32}       .{col 42}
+
+{txt}{hline}
+{res}thinness1{right:1 thinness}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:thinness}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}8{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,811{col 32}       0{col 42}{txt}not thin
+{col 20}{res}        59{col 32}       1{col 42}{txt}moderately thin
+{col 20}{res}        13{col 32}       2{col 42}{txt}severely thin
+{col 20}{res}         8{col 32}       .{col 42}
+
+{txt}{hline}
+{res}toiletq1{right:1 toiletq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:toiletq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       983{col 32}       0{col 42}{txt}No
+{col 20}{res}       908{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}typesite1{right:1 typesite}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:typesite}
+
+{col 18}Range: [{res}1{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       346{col 32}       1{col 42}{txt}urban
+{col 20}{res}     1,545{col 32}       2{col 42}{txt}rural
+
+{txt}{hline}
+{res}underweight1{right:1 underweight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:underweight}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}8{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,599{col 32}       0{col 42}{txt}not underweight
+{col 20}{res}       223{col 32}       1{col 42}{txt}moderately underweight
+{col 20}{res}        61{col 32}       2{col 42}{txt}severely underweight
+{col 20}{res}         8{col 32}       .{col 42}
+
+{txt}{hline}
+{res}wi1{right:1 wi_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}.00505051{txt},{res}.96296299{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}519{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.436778}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.218911}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.128307}{ralign 10: .268519}{ralign 10: .455556}{ralign 10: .583333}{ralign 10: .722222}
+
+{txt}{hline}
+{res}CLUSTID_r1{right:Sentinel Site}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}20{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}20{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:10.3258}
+{txt}{col 14}Std. dev.: {res}{ralign 7:5.72627}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:2}{ralign 10:       5}{ralign 10:      10}{ralign 10:      15}{ralign 10:      18}
+
+{txt}{hline}
+{res}injury_child_may_die_r1{right:Serious injury or illness when you thought child might die?}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:MIGHTDIE}, but {res:1} nonmissing value is not labeled
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,644{col 32}       0{col 42}
+{col 20}       247{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}has_longterm_disease_r1{right:Does child have any long term health problems?}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:LONGTERM}, but {res:1} nonmissing value is not labeled
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,813{col 32}       0{col 42}
+{col 20}        78{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}sees_dad_daily_r1{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       238{col 32}0
+{col 20}     1,653{col 32}1
+
+{txt}{hline}
+{res}sees_mom_daily_r1{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}         9{col 32}0
+{col 20}     1,882{col 32}1
+
+{txt}{hline}
+{res}mean_symptoms_r1{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}.60000002{txt}]{col 55}Units: {res}1.000e-08
+{col 10}{txt}Unique values: {res}8{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,243{col 32}0
+{col 20}       401{col 32}.1
+{col 20}       155{col 32}.2
+{col 20}         1{col 32}.22222222
+{col 20}        47{col 32}.30000001
+{col 20}        28{col 32}.40000001
+{col 20}        13{col 32}.5
+{col 20}         3{col 32}.60000002
+
+{txt}{hline}
+{res}health_worse_than_others_r1{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,390{col 32}0
+{col 20}       501{col 32}1
+
+{txt}{hline}
+{res}agemon2{right:2 agemon}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}int{txt})
+{ralign 22:Label}: {res:agemon}, but {res:27} nonmissing values are not labeled
+
+{col 18}Range: [{res}48{txt},{res}80{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}27{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}60{col 31}{txt}
+{ralign 23: }{col 25}{res}62{col 31}{txt}
+{ralign 23: }{col 25}{res}64{col 31}{txt}
+{ralign 23: }{col 25}{res}66{col 31}{txt}
+
+{txt}{hline}
+{res}aniany2{right:2 aniany}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       931{col 32}0
+{col 20}       960{col 32}1
+
+{txt}{hline}
+{res}bcg2{right:2 bcg}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:bcg}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        48{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,832{col 32}       1{col 42}{txt}yes
+{col 20}{res}        11{col 32}       .{col 42}
+
+{txt}{hline}
+{res}bmi2{right:2 bmi}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}7.9445972{txt},{res}23.126331{txt}]{col 55}Units: {res}1.000e-07
+{col 10}{txt}Unique values: {res}1,778{col 51}{txt}Missing .: {res}8{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:14.9453}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1.59612}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:13.3639}{ralign 10:      14}{ralign 10: 14.6849}{ralign 10: 15.5591}{ralign 10: 16.7286}
+
+{txt}{hline}
+{res}careage2{right:2 careage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}19{txt},{res}78{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}59{col 51}{txt}Missing .: {res}10{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:32.664}
+{txt}{col 14}Std. dev.: {res}{ralign 7:8.34169}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:25}{ralign 10:      27}{ralign 10:      31}{ralign 10:      36}{ralign 10:      41}
+
+{txt}{hline}
+{res}carecantread2{right:2 carecantread}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:carecantread}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}16{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,649{col 32}       0{col 42}{txt}no
+{col 20}{res}       226{col 32}       1{col 42}{txt}yes
+{col 20}{res}        16{col 32}       .{col 42}
+
+{txt}{hline}
+{res}caredu2{right:2 caredu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:caredu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}13{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}3{col 31}{txt}Grade 3
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}9{col 31}{txt}Grade 9
+
+{txt}{hline}
+{res}caregiver_is_female2{right:2 caregiver_is_female}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        71{col 32}0
+{col 20}     1,820{col 32}1
+
+{txt}{hline}
+{res}caregiver_is_parent2{right:2 caregiver_is_parent}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       101{col 32}0
+{col 20}     1,790{col 32}1
+
+{txt}{hline}
+{res}careladder2{right:2 careladder}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}9{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}9{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        46{col 32}1
+{col 20}       186{col 32}2
+{col 20}       355{col 32}3
+{col 20}       475{col 32}4
+{col 20}       563{col 32}5
+{col 20}       168{col 32}6
+{col 20}        60{col 32}7
+{col 20}        11{col 32}8
+{col 20}        16{col 32}9
+{col 20}        11{col 32}.
+
+{txt}{hline}
+{res}careldr4yrs2{right:2 careldr4yrs}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}9{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}9{col 51}{txt}Missing .: {res}93{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}         6{col 32}1
+{col 20}        53{col 32}2
+{col 20}       156{col 32}3
+{col 20}       261{col 32}4
+{col 20}       393{col 32}5
+{col 20}       474{col 32}6
+{col 20}       310{col 32}7
+{col 20}       108{col 32}8
+{col 20}        37{col 32}9
+{col 20}        93{col 32}.
+
+{txt}{hline}
+{res}cd2{right:2 cd_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1.000e-08
+{col 10}{txt}Unique values: {res}10{col 51}{txt}Missing .: {res}14{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.435447}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.208497}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.222222}{ralign 10: .333333}{ralign 10: .444444}{ralign 10: .555556}{ralign 10: .777778}
+
+{txt}{hline}
+{res}chethnic2{right:2 chethnic}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chethnic}
+
+{col 18}Range: [{res}10{txt},{res}48{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}8{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        66{col 32}      10{col 42}{txt}Other
+{col 20}{res}     1,620{col 32}      41{col 42}{txt}Kinh
+{col 20}{res}       101{col 32}      42{col 42}{txt}H'Mong
+{col 20}{res}         1{col 32}      44{col 42}{txt}Ede
+{col 20}{res}         6{col 32}      45{col 42}{txt}Bana
+{col 20}{res}        29{col 32}      46{col 42}{txt}Nung
+{col 20}{res}        33{col 32}      47{col 42}{txt}Tay
+{col 20}{res}        35{col 32}      48{col 42}{txt}Dao
+
+{txt}{hline}
+{res}chheight2{right:2 chheight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+{ralign 22:Label}: {res:chheight}, but {res:440} nonmissing values are not labeled
+
+{col 18}Range: [{res}82.6{txt},{res}172.05{txt}]{col 55}Units: {res}.01
+{col 10}{txt}Unique values: {res}440{col 51}{txt}Missing .: {res}8{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}100.5{col 31}{txt}
+{ralign 23: }{col 25}{res}103.5{col 31}{txt}
+{ralign 23: }{col 25}{res}106.05{col 31}{txt}
+{ralign 23: }{col 25}{res}109.2{col 31}{txt}
+
+{txt}{hline}
+{res}chhprob2{right:2 chhprob}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chhprob}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,718{col 32}       0{col 42}{txt}no
+{col 20}{res}       170{col 32}       1{col 42}{txt}yes
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chillness2{right:2 chillness}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chillness}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,825{col 32}       0{col 42}{txt}no
+{col 20}{res}        65{col 32}       1{col 42}{txt}yes
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chlang2{right:2 chlang}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chlang}
+
+{col 18}Range: [{res}10{txt},{res}49{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        48{col 32}      10{col 42}{txt}other
+{col 20}{res}     1,642{col 32}      41{col 42}{txt}vietnamese
+{col 20}{res}        27{col 32}      43{col 42}{txt}tay
+{col 20}{res}       102{col 32}      44{col 42}{txt}h'mong
+{col 20}{res}        20{col 32}      45{col 42}{txt}nung
+{col 20}{res}        31{col 32}      48{col 42}{txt}dao
+{col 20}{res}        18{col 32}      49{col 42}{txt}giay
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chldrel2{right:2 chldrel}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chldrel}
+
+{col 18}Range: [{res}1{txt},{res}15{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        20{col 32}       1{col 42}{txt}christian
+{col 20}{res}       139{col 32}       3{col 42}{txt}buddhist
+{col 20}{res}        19{col 32}       6{col 42}{txt}protestant
+{col 20}{res}        64{col 32}      11{col 42}{txt}ancestor worship
+{col 20}{res}        24{col 32}      13{col 42}{txt}cao dai
+{col 20}{res}     1,623{col 32}      14{col 42}{txt}none
+{col 20}{res}         1{col 32}      15{col 42}{txt}other
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}chweight2{right:2 chweight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+{ralign 22:Label}: {res:chweight}, but {res:214} nonmissing values are not labeled
+
+{col 18}Range: [{res}10{txt},{res}37.5{txt}]{col 55}Units: {res}.01
+{col 10}{txt}Unique values: {res}214{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}14.5{col 31}{txt}
+{ralign 23: }{col 25}{res}15.5{col 31}{txt}
+{ralign 23: }{col 25}{res}16.6{col 31}{txt}
+{ralign 23: }{col 25}{res}18{col 31}{txt}
+
+{txt}{hline}
+{res}cookingq2{right:2 cookingq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:cookingq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,591{col 32}       0{col 42}{txt}No
+{col 20}{res}       300{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}dadage2{right:2 dadage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadage}, but {res:38} nonmissing values are not labeled
+
+{col 18}Range: [{res}20{txt},{res}59{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}38{col 51}{txt}Missing .: {res}60{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}29{col 31}{txt}
+{ralign 23: }{col 25}{res}32{col 31}{txt}
+{ralign 23: }{col 25}{res}35{col 31}{txt}
+{ralign 23: }{col 25}{res}40{col 31}{txt}
+
+{txt}{hline}
+{res}dadcantread2{right:2 dadcantread}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadcantread}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}45{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,695{col 32}       0{col 42}{txt}no
+{col 20}{res}       151{col 32}       1{col 42}{txt}yes
+{col 20}{res}        45{col 32}       .{col 42}
+
+{txt}{hline}
+{res}dadedu2{right:2 dadedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}71{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}4{col 31}{txt}Grade 4
+{ralign 23: }{col 25}{res}6{col 31}{txt}Grade 6
+{ralign 23: }{col 25}{res}8{col 31}{txt}Grade 8
+{ralign 23: }{col 25}{res}10{col 31}{txt}Grade 10
+
+{txt}{hline}
+{res}dadlive2{right:2 dadlive}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dadlive}
+
+{col 18}Range: [{res}1{txt},{res}3{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}52{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,764{col 32}       1{col 42}{txt}Lives in the household
+{col 20}{res}        67{col 32}       2{col 42}{txt}Does not live in household
+{col 20}{res}         8{col 32}       3{col 42}{txt}Has died
+{col 20}{res}        52{col 32}       .{col 42}
+
+{txt}{hline}
+{res}dpt2{right:2 dpt}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:dpt}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}14{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        21{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,856{col 32}       1{col 42}{txt}yes
+{col 20}{res}        14{col 32}       .{col 42}
+
+{txt}{hline}
+{res}drwaterq2{right:2 drwaterq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:drwaterq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,669{col 32}       0{col 42}{txt}No
+{col 20}{res}       222{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}elecq2{right:2 elecq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:elecq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        98{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,790{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}engrade2{right:2 engrade}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:engrade}
+
+{col 18}Range: [{res}0{txt},{res}50{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       318{col 32}       0{col 42}{txt}None
+{col 20}{res}       243{col 32}       1{col 42}{txt}Grade 1
+{col 20}{res}         5{col 32}       2{col 42}{txt}Grade 2
+{col 20}{res}     1,320{col 32}      50{col 42}{txt}Any pre-primary grade
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}enrol2{right:2 enrol}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:enrol}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       318{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,568{col 32}       1{col 42}{txt}yes
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}entype2{right:2 entype}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:entype}
+
+{col 18}Range: [{res}1{txt},{res}7{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}6{col 51}{txt}Missing .: {res}326{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       135{col 32}       1{col 42}{txt}Private
+{col 20}{res}         3{col 32}       2{col 42}{txt}NGO/Charity/ Religious (not for
+{col 42}profit)
+{col 20}{res}     1,409{col 32}       3{col 42}{txt}Public
+{col 20}{res}         6{col 32}       5{col 42}{txt}Others, specify
+{col 20}{res}         6{col 32}       6{col 42}{txt}Informal
+{col 20}{res}         6{col 32}       7{col 42}{txt}Half public/Half Private
+{col 20}{res}       326{col 32}       .{col 42}
+
+{txt}{hline}
+{res}hcare2{right:2 hcare}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}6{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}175{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,641{col 32}0
+{col 20}        36{col 32}1
+{col 20}        28{col 32}2
+{col 20}         5{col 32}3
+{col 20}         4{col 32}4
+{col 20}         1{col 32}5
+{col 20}         1{col 32}6
+{col 20}       175{col 32}.
+
+{txt}{hline}
+{res}hchore2{right:2 hchore}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}3{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}161{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,689{col 32}0
+{col 20}        36{col 32}1
+{col 20}         4{col 32}2
+{col 20}         1{col 32}3
+{col 20}       161{col 32}.
+
+{txt}{hline}
+{res}headage2{right:2 headage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}20{txt},{res}93{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}65{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:38.5249}
+{txt}{col 14}Std. dev.: {res}{ralign 7:11.9111}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:28}{ralign 10:      31}{ralign 10:      35}{ralign 10:      42}{ralign 10:      58}
+
+{txt}{hline}
+{res}headedu2{right:2 headedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}4{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}3{col 31}{txt}Grade 3
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}9{col 31}{txt}Grade 9
+
+{txt}{hline}
+{res}headrel2{right:2 headrel}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headrel}
+
+{col 18}Range: [{res}1{txt},{res}7{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,595{col 32}       1{col 42}{txt}Biological parent
+{col 20}{res}         3{col 32}       2{col 42}{txt}Non-biological parent
+{col 20}{res}       280{col 32}       3{col 42}{txt}Grandparent
+{col 20}{res}         5{col 32}       4{col 42}{txt}Uncle/aunt
+{col 20}{res}         1{col 32}       5{col 42}{txt}Sibling
+{col 20}{res}         5{col 32}       6{col 42}{txt}Other-relative
+{col 20}{res}         1{col 32}       7{col 42}{txt}Other-nonrelative
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}headsex2{right:2 headsex}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:headsex}
+
+{col 18}Range: [{res}1{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,661{col 32}       1{col 42}{txt}male
+{col 20}{res}       229{col 32}       2{col 42}{txt}female
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}hhsize2{right:2 hhsize}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}2{txt},{res}15{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}14{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:4.66843}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1.5145}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:3}{ralign 10:       4}{ralign 10:       4}{ralign 10:       5}{ralign 10:       6}
+
+{txt}{hline}
+{res}hib2{right:2 hib}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:hib}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}91{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       676{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,124{col 32}       1{col 42}{txt}yes
+{col 20}{res}        91{col 32}       .{col 42}
+
+{txt}{hline}
+{res}hplay2{right:2 hplay}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}0{txt},{res}16{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}21{col 51}{txt}Missing .: {res}161{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:7.74249}
+{txt}{col 14}Std. dev.: {res}{ralign 7:2.70857}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:4}{ralign 10:       6}{ralign 10:       8}{ralign 10:      10}{ralign 10:      11}
+
+{txt}{hline}
+{res}hq2{right:2 hq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}96{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.671116}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.245738}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.291667}{ralign 10: .541667}{ralign 10: .805556}{ralign 10: .833333}{ralign 10:    .875}
+
+{txt}{hline}
+{res}hschool2{right:2 hschool}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}0{txt},{res}12{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}161{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:5.4789}
+{txt}{col 14}Std. dev.: {res}{ralign 7:2.73052}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:3}{ralign 10:       4}{ralign 10:       5}{ralign 10:       8}{ralign 10:       9}
+
+{txt}{hline}
+{res}hsleep2{right:2 hsleep}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}5{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}9{col 51}{txt}Missing .: {res}161{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}         1{col 32}5
+{col 20}         5{col 32}7
+{col 20}        90{col 32}8
+{col 20}       409{col 32}9
+{col 20}       758{col 32}10
+{col 20}       324{col 32}11
+{col 20}       127{col 32}12
+{col 20}        13{col 32}13
+{col 20}         3{col 32}14
+{col 20}       161{col 32}.
+
+{txt}{hline}
+{res}hstudy2{right:2 hstudy}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}0{txt},{res}5{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}8{col 51}{txt}Missing .: {res}163{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       937{col 32}0
+{col 20}         1{col 32}.5
+{col 20}       556{col 32}1
+{col 20}       201{col 32}2
+{col 20}         1{col 32}2.5
+{col 20}        30{col 32}3
+{col 20}         1{col 32}4
+{col 20}         1{col 32}5
+{col 20}       163{col 32}.
+
+{txt}{hline}
+{res}htask2{right:2 htask}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}161{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,725{col 32}0
+{col 20}         3{col 32}1
+{col 20}         1{col 32}2
+{col 20}         1{col 32}4
+{col 20}       161{col 32}.
+
+{txt}{hline}
+{res}measles2{right:2 measles}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:measles}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        25{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,855{col 32}       1{col 42}{txt}yes
+{col 20}{res}        11{col 32}       .{col 42}
+
+{txt}{hline}
+{res}momage2{right:2 momage}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momage}, but {res:36} nonmissing values are not labeled
+
+{col 18}Range: [{res}19{txt},{res}54{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}36{col 51}{txt}Missing .: {res}12{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}26{col 31}{txt}
+{ralign 23: }{col 25}{res}29{col 31}{txt}
+{ralign 23: }{col 25}{res}32{col 31}{txt}
+{ralign 23: }{col 25}{res}36{col 31}{txt}
+
+{txt}{hline}
+{res}momcantread2{right:2 momcantread}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momcantread}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}21{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,653{col 32}       0{col 42}{txt}no
+{col 20}{res}       217{col 32}       1{col 42}{txt}yes
+{col 20}{res}        21{col 32}       .{col 42}
+
+{txt}{hline}
+{res}momedu2{right:2 momedu}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momedu}
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}15{col 51}{txt}Missing .: {res}23{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}3{col 31}{txt}Grade 3
+{ralign 23: }{col 25}{res}5{col 31}{txt}Grade 5
+{ralign 23: }{col 25}{res}7{col 31}{txt}Grade 7
+{ralign 23: }{col 25}{res}9{col 31}{txt}Grade 9
+
+{txt}{hline}
+{res}momlive2{right:2 momlive}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:momlive}
+
+{col 18}Range: [{res}1{txt},{res}3{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,825{col 32}       1{col 42}{txt}Lives in the household
+{col 20}{res}        54{col 32}       2{col 42}{txt}Does not live in household
+{col 20}{res}        11{col 32}       3{col 42}{txt}Has died
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}polio2{right:2 polio}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:polio}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}18{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        42{col 32}       0{col 42}{txt}no
+{col 20}{res}     1,831{col 32}       1{col 42}{txt}yes
+{col 20}{res}        18{col 32}       .{col 42}
+
+{txt}{hline}
+{res}preprim2{right:2 preprim}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:preprim}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       177{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,709{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}stunting2{right:2 stunting}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:stunting}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}12{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,397{col 32}       0{col 42}{txt}not stunted
+{col 20}{res}       391{col 32}       1{col 42}{txt}moderately stunted
+{col 20}{res}        91{col 32}       2{col 42}{txt}severely stunted
+{col 20}{res}        12{col 32}       .{col 42}
+
+{txt}{hline}
+{res}sv2{right:2 sv_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}.01
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        93{col 32}0
+{col 20}       683{col 32}.25
+{col 20}       723{col 32}.5
+{col 20}       355{col 32}.75
+{col 20}        34{col 32}1
+{col 20}         3{col 32}.
+
+{txt}{hline}
+{res}thinness2{right:2 thinness}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:thinness}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}10{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,810{col 32}       0{col 42}{txt}not thin
+{col 20}{res}        65{col 32}       1{col 42}{txt}moderately thin
+{col 20}{res}         6{col 32}       2{col 42}{txt}severely thin
+{col 20}{res}        10{col 32}       .{col 42}
+
+{txt}{hline}
+{res}timesch2{right:2 timesch}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}int{txt})
+
+{col 18}Range: [{res}1{txt},{res}120{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}26{col 51}{txt}Missing .: {res}6{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:12.7862}
+{txt}{col 14}Std. dev.: {res}{ralign 7:8.89395}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:5}{ralign 10:       5}{ralign 10:      10}{ralign 10:      15}{ralign 10:      20}
+
+{txt}{hline}
+{res}toiletq2{right:2 toiletq_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:toiletq_new}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       868{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,023{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}typesite2{right:2 typesite}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:typesite}
+
+{col 18}Range: [{res}1{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       366{col 32}       1{col 42}{txt}urban
+{col 20}{res}     1,525{col 32}       2{col 42}{txt}rural
+
+{txt}{hline}
+{res}underweight2{right:2 underweight}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:underweight}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,556{col 32}       0{col 42}{txt}not underweight
+{col 20}{res}       295{col 32}       1{col 42}{txt}moderately underweight
+{col 20}{res}        35{col 32}       2{col 42}{txt}severely underweight
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}wi2{right:2 wi_new}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}.00617284{txt},{res}.93518519{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}407{col 51}{txt}Missing .: {res}20{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.515228}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.185986}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:.248677}{ralign 10: .384259}{ralign 10: .537037}{ralign 10: .648148}{ralign 10:  .75463}
+
+{txt}{hline}
+{res}CLUSTID_r2{right:Sentinel site}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}90{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}21{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:14.1111}
+{txt}{col 14}Std. dev.: {res}{ralign 7:18.0521}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:3}{ralign 10:       6}{ralign 10:      11}{ralign 10:      16}{ralign 10:      19}
+
+{txt}{hline}
+{res}z_score_ppvt_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-3.0574722{txt},{res}5.4299726{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}748{col 51}{txt}Missing .: {res}210{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:.006125}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.999938}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.03194}{ralign 10:-.643231}{ralign 10:-.186891}{ralign 10: .509209}{ralign 10: 1.24914}
+
+{txt}{hline}
+{res}z_score_cog_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.877789{txt},{res}3.2139423{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}209{col 51}{txt}Missing .: {res}54{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:.003428}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.990502}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.17995}{ralign 10:-.609916}{ralign 10: .164057}{ralign 10: .718153}{ralign 10: 1.13834}
+
+{txt}{hline}
+{res}z_rscorelang_cog_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.3795776{txt},{res}4.8564229{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}224{col 51}{txt}Missing .: {res}127{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-.001607}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.990152}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.17066}{ralign 10:-.665485}{ralign 10:-.010348}{ralign 10: .641883}{ralign 10: 1.23217}
+
+{txt}{hline}
+{res}z_rscorelang_ppvt_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.18716{txt},{res}3.7897236{txt}]{col 55}Units: {res}1.000e-11
+{col 10}{txt}Unique values: {res}715{col 51}{txt}Missing .: {res}340{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:.002579}
+{txt}{col 14}Std. dev.: {res}{ralign 7:.996873}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:-1.1908}{ralign 10:-.688733}{ralign 10:-.073223}{ralign 10: .626518}{ralign 10: 1.29717}
+
+{txt}{hline}
+{res}group_clustid_r2{right:group(CLUSTID)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}1{txt},{res}21{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}21{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:10.7541}
+{txt}{col 14}Std. dev.: {res}{ralign 7:6.04772}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:3}{ralign 10:       6}{ralign 10:      11}{ralign 10:      16}{ralign 10:      19}
+
+{txt}{hline}
+{res}CSV1_parents_r2{right:Nearest primary school provides a good quality education for children}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSV1}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}22{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,286{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       497{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        69{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        17{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        22{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSV2_parents_r2{right:Nearest health facility provides a good quality health service for children}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSV2}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}30{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       987{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       666{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       165{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        43{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        30{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSV3_parents_r2{right:Local police do their job well}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSV3}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}52{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       944{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       658{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       189{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        48{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        52{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSV4_parents_r2{right:People in community can affect local government decisions}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSV4}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}90{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       664{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       722{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       326{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        89{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        90{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSV5_parents_r2{right:Most people in community are basically honest}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSV5}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}13{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       900{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       655{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       259{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        64{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        13{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CTR1_parents_r2{right:I believe the government does what is right for people like me}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CTR1}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}51{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,332{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       437{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        60{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        11{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        51{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CTR2_parents_r2{right:I am confident of the ability of government officials to do their job}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CTR2}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}35{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,107{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       611{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       117{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        21{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        35{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CTR4_parents_r2{right:I feel I can trust my neighbours to look after my house}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CTR4}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,255{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       434{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       149{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        48{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CTR5_parents_r2{right:I feel I can trust people to look after my child}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CTR5}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}10{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,105{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       497{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       217{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        62{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        10{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CTR6_parents_r2{right:I think it is safe for my child to go out on the street on his/her own}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CTR6}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       265{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       333{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       469{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}       822{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CAG1_parents_r2{right:If I try hard I can improve my situation in life}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CAG1}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}12{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,327{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       480{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        69{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}         3{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        12{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CPS1_parents_r2{right:I feel proud to show my friends or other visitors where I live}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CPS1}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}6{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       994{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       616{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       239{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        36{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         6{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CAG2_parents_r2{right:I like to make plans for my future}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CAG2}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}21{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,197{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       484{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       167{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        22{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        21{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CPS2_parents_r2{right:I am ashamed of my clothes}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CPS2}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        60{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       272{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       569{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}       989{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CPS3_parents_r2{right:I feel proud of the job done by the hh head}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CPS3}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}109{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,232{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       407{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       125{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        18{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}       109{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CAG3_parents_r2{right:I have no choice about which school to send my child to}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CAG3}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}37{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       664{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       443{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       361{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}       386{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        37{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSD1_parents_r2{right:At the shops I am treated with fairness and respect}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSD1}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}10{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,355{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       432{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        75{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        19{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}        10{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CPS4_parents_r2{right:The job I do makes me feel proud}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CPS4}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,284{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       436{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       149{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        21{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CAG4_parents_r2{right:If my child gets sick I can do little to help him/her get better}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CAG4}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,582{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       237{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        61{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}        10{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSD2_parents_r2{right:Other people in the street look down on me and my family}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSD2}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}7{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        44{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       120{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       417{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}     1,303{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         7{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CPS5_parents_r2{right:I feel proud of my children}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CPS5}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}6{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,487{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       341{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        51{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}         6{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}         6{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CSD3_parents_r2{right:My children's teachers are unfriendly or rude to me}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CSD3}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}235{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        21{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}        56{col 32}       2{col 42}{txt}Agree
+{col 20}{res}       282{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}     1,297{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}       235{col 32}       .{col 42}
+
+{txt}{hline}
+{res}CAG5_parents_r2{right:I can do little to help my child do well in school no matter how hard I try}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:CAG5}
+
+{col 18}Range: [{res}1{txt},{res}4{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}4{col 51}{txt}Missing .: {res}238{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,403{col 32}       1{col 42}{txt}Strongly agree
+{col 20}{res}       228{col 32}       2{col 42}{txt}Agree
+{col 20}{res}        21{col 32}       3{col 42}{txt}Disagree
+{col 20}{res}         1{col 32}       4{col 42}{txt}Strongly disagree
+{col 20}{res}       238{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GRADLIKE_parents_r2{right:What level of education would you like child to complete}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GRADLIKE}, but {res:10} nonmissing values are not labeled
+
+{col 18}Range: [{res}0{txt},{res}14{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}13{col 51}{txt}Missing .: {res}27{txt}/{res}1,891
+
+{txt}{ralign 23: Examples:}{col 25}{res}13{col 31}{txt}Post-secondary, vocational
+{ralign 23: }{col 25}{res}14{col 31}{txt}University
+{ralign 23: }{col 25}{res}14{col 31}{txt}University
+{ralign 23: }{col 25}{res}14{col 31}{txt}University
+
+{txt}{hline}
+{res}EXPGRADE_parents_r2{right:Do you think child will complete desired level of education}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EXPGRADE}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}213{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       161{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,517{col 32}       1{col 42}{txt}Yes
+{col 20}{res}       213{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPIND_parents_r2{right:Important for children to learn independence at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPIND}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}9{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        53{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,829{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         9{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPHDWK_parents_r2{right:Important for children to learn hard work at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPHDWK}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         2{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,889{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}IMPRESP_parents_r2{right:Important for children to learn feeling of responsibility at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPRESP}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}6{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         9{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,876{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         6{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPIMA_parents_r2{right:Important for children to learn imagination at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPIMA}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}38{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        72{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,781{col 32}       1{col 42}{txt}Yes
+{col 20}{res}        38{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPTOL_parents_r2{right:Important for children to learn tolerance at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPTOL}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}22{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         4{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,865{col 32}       1{col 42}{txt}Yes
+{col 20}{res}        22{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPTHRI_parents_r2{right:Important for children to learn thrift at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPTHRI}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}4{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         9{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,878{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         4{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPDET_parents_r2{right:Important for children to learn determination at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPDET}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}25{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        33{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,833{col 32}       1{col 42}{txt}Yes
+{col 20}{res}        25{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPREL_parents_r2{right:Important for children to learn religious faith at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPREL}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}71{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       545{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,275{col 32}       1{col 42}{txt}Yes
+{col 20}{res}        71{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPUNSEL_parents_r2{right:Important for children to learn unselfishness at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPUNSEL}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}18{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        80{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,793{col 32}       1{col 42}{txt}Yes
+{col 20}{res}        18{col 32}       .{col 42}
+
+{txt}{hline}
+{res}IMPOB_parents_r2{right:Important for children to learn obedience at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPOB}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         1{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,890{col 32}       1{col 42}{txt}Yes
+
+{txt}{hline}
+{res}IMPSIS_parents_r2{right:Important for children to learn to accept difficulties at home}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:IMPSIS}
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        19{col 32}       0{col 42}{txt}No
+{col 20}{res}     1,870{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}EPREAS1_parents_r2{right:Having children increases sense of responsibility}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EPREAS1}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}30{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        52{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       120{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       336{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,151{col 32}       4{col 42}{txt}Important
+{col 20}{res}       202{col 32}       5{col 42}{txt}Very important
+{col 20}{res}        30{col 32}       .{col 42}
+
+{txt}{hline}
+{res}NEREAS1_parents_r2{right:To be sure enough children will survive to adulthood}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS1}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}8{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       210{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       184{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       288{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}       992{col 32}       4{col 42}{txt}Important
+{col 20}{res}       209{col 32}       5{col 42}{txt}Very important
+{col 20}{res}         8{col 32}       .{col 42}
+
+{txt}{hline}
+{res}EPREAS2_parents_r2{right:It is fun to have young children around the house}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EPREAS2}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        18{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}        31{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       208{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,314{col 32}       4{col 42}{txt}Important
+{col 20}{res}       320{col 32}       5{col 42}{txt}Very important
+
+{txt}{hline}
+{res}NEREAS2_parents_r2{right:To have one more person to help family economically}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS2}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       276{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       200{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       371{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}       880{col 32}       4{col 42}{txt}Important
+{col 20}{res}       163{col 32}       5{col 42}{txt}Very important
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}EPREAS3_parents_r2{right:Pleasure you get from watching children grow}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EPREAS3}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         7{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}        13{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       155{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,289{col 32}       4{col 42}{txt}Important
+{col 20}{res}       427{col 32}       5{col 42}{txt}Very important
+
+{txt}{hline}
+{res}NEREAS3_parents_r2{right:To carry on family name}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS3}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       158{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       102{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       187{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}       986{col 32}       4{col 42}{txt}Important
+{col 20}{res}       456{col 32}       5{col 42}{txt}Very important
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}NEREAS4_parents_r2{right:Children can help when you're old}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS4}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        44{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}        57{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       172{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,168{col 32}       4{col 42}{txt}Important
+{col 20}{res}       450{col 32}       5{col 42}{txt}Very important
+
+{txt}{hline}
+{res}EPREAS4_parents_r2{right:Special feeling of love between parent and child}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EPREAS4}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}22{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         9{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}        30{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       218{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,243{col 32}       4{col 42}{txt}Important
+{col 20}{res}       369{col 32}       5{col 42}{txt}Very important
+{col 20}{res}        22{col 32}       .{col 42}
+
+{txt}{hline}
+{res}NEREAS5_parents_r2{right:A child helps around the house}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS5}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       280{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       286{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       580{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}       631{col 32}       4{col 42}{txt}Important
+{col 20}{res}       112{col 32}       5{col 42}{txt}Very important
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}NEREAS6_parents_r2{right:It is a duty to have children according to religion}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NEREAS6}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}43{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       863{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       210{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       297{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}       431{col 32}       4{col 42}{txt}Important
+{col 20}{res}        47{col 32}       5{col 42}{txt}Very important
+{col 20}{res}        43{col 32}       .{col 42}
+
+{txt}{hline}
+{res}EPREAS5_parents_r2{right:Raising children helps you to learn about life and yourself}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:EPREAS5}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        51{col 32}       1{col 42}{txt}Not important at all
+{col 20}{res}       124{col 32}       2{col 42}{txt}Not very important
+{col 20}{res}       412{col 32}       3{col 42}{txt}Moderately important
+{col 20}{res}     1,130{col 32}       4{col 42}{txt}Important
+{col 20}{res}       163{col 32}       5{col 42}{txt}Very important
+{col 20}{res}        11{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUCLOSE_parents_r2{right:Expect child to continue living close to you when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUCLOSE}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       364{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}       245{col 32}       2{col 42}{txt}A little
+{col 20}{res}       409{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       609{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       253{col 32}       5{col 42}{txt}A lot
+{col 20}{res}        11{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUFINAN_parents_r2{right:Expect child to provide financial assistance to younger siblings when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUFINAN}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}31{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       135{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}       261{col 32}       2{col 42}{txt}A little
+{col 20}{res}       605{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       685{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       174{col 32}       5{col 42}{txt}A lot
+{col 20}{res}        31{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUHELPS_parents_r2{right:Expect child to help with housework when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUHELPS}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       222{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}       375{col 32}       2{col 42}{txt}A little
+{col 20}{res}       643{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       534{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       115{col 32}       5{col 42}{txt}A lot
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUFINYOU_parents_r2{right:Expect child to provide financial assistance to you when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUFINYOU}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}5{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       236{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}       246{col 32}       2{col 42}{txt}A little
+{col 20}{res}       495{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       722{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       187{col 32}       5{col 42}{txt}A lot
+{col 20}{res}         5{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUCARES_parents_r2{right:Expect child to care for younger siblings when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUCARES}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}88{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}       445{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}       297{col 32}       2{col 42}{txt}A little
+{col 20}{res}       512{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       430{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       119{col 32}       5{col 42}{txt}A lot
+{col 20}{res}        88{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUOLD_parents_r2{right:Expect child to care for you when you are old}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUOLD}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        30{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}        79{col 32}       2{col 42}{txt}A little
+{col 20}{res}       139{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       964{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       677{col 32}       5{col 42}{txt}A lot
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}GUEMOT_parents_r2{right:Expect child to provide emotional support to you when grown up}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:GUEMOT}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}        11{col 32}       1{col 42}{txt}Not at all
+{col 20}{res}        20{col 32}       2{col 42}{txt}A little
+{col 20}{res}        69{col 32}       3{col 42}{txt}Somewhat
+{col 20}{res}       789{col 32}       4{col 42}{txt}Quite a lot
+{col 20}{res}       999{col 32}       5{col 42}{txt}A lot
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}desire_more_highsch_parents_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}27{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       356{col 32}0
+{col 20}     1,508{col 32}1
+{col 20}        27{col 32}.
+
+{txt}{hline}
+{res}quant_EXPEARN_parents_r2{right:4 quantiles of aux_EXPEARN}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}36{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       599{col 32}1
+{col 20}       455{col 32}2
+{col 20}       562{col 32}3
+{col 20}       130{col 32}4
+{col 20}       109{col 32}99
+{col 20}        36{col 32}.
+
+{txt}{hline}
+{res}quant_EXPEDU_parents_r2{right:4 quantiles of aux_EXPEDU}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}166{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       387{col 32}1
+{col 20}       397{col 32}2
+{col 20}       189{col 32}3
+{col 20}       272{col 32}4
+{col 20}       480{col 32}99
+{col 20}       166{col 32}.
+
+{txt}{hline}
+{res}quant_EXPIND_parents_r2{right:4 quantiles of aux_EXPIND}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}88{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       472{col 32}1
+{col 20}       655{col 32}2
+{col 20}       149{col 32}3
+{col 20}       389{col 32}4
+{col 20}       138{col 32}99
+{col 20}        88{col 32}.
+
+{txt}{hline}
+{res}quant_EXPLEAV_parents_r2{right:4 quantiles of aux_EXPLEAV}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}100{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       381{col 32}1
+{col 20}       492{col 32}2
+{col 20}       235{col 32}3
+{col 20}       305{col 32}4
+{col 20}       378{col 32}99
+{col 20}       100{col 32}.
+
+{txt}{hline}
+{res}quant_EXPMAR_parents_r2{right:4 quantiles of aux_EXPMAR}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}58{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       870{col 32}1
+{col 20}       186{col 32}2
+{col 20}       345{col 32}3
+{col 20}       423{col 32}4
+{col 20}         9{col 32}99
+{col 20}        58{col 32}.
+
+{txt}{hline}
+{res}quant_EXPCHILD_parents_r2{right:4 quantiles of aux_EXPCHILD}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+
+{col 18}Range: [{res}1{txt},{res}99{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}73{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       465{col 32}1
+{col 20}       544{col 32}2
+{col 20}       495{col 32}3
+{col 20}       310{col 32}4
+{col 20}         4{col 32}99
+{col 20}        73{col 32}.
+
+{txt}{hline}
+{res}injury_child_may_die_r2{right:Serious illness or injury in last 4 yrs}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:MIGHTDIE}, but {res:1} nonmissing value is not labeled
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,799{col 32}       0{col 42}
+{col 20}        91{col 32}       1{col 42}{txt}Yes
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}foodexp_r2{right:monthly current expenditure in food items, in '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}132{txt},{res}21306{txt}]{col 55}Units: {res}.1
+{col 10}{txt}Unique values: {res}840{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:1127.05}
+{txt}{col 14}Std. dev.: {res}{ralign 7:823.641}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:522}{ralign 10:     690}{ralign 10:     944}{ralign 10:    1328}{ralign 10:    1894}
+
+{txt}{hline}
+{res}nfoodexp_r2{right:monthly current expenditure in non-food items, in '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}14.333333{txt},{res}44590.832{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,761{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:754.045}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1540.61}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:154.917}{ralign 10: 255.833}{ralign 10: 440.417}{ralign 10: 817.667}{ralign 10: 1478.33}
+
+{txt}{hline}
+{res}totalexp_r2{right:total monthly current expenditure, in '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}146.33333{txt},{res}50710.832{txt}]{col 55}Units: {res}.00001
+{col 10}{txt}Unique values: {res}1,859{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:1881.1}
+{txt}{col 14}Std. dev.: {res}{ralign 7:2042.9}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:722.917}{ralign 10:    1010}{ralign 10: 1421.42}{ralign 10: 2152.33}{ralign 10: 3258.75}
+
+{txt}{hline}
+{res}foodexp_pc_r2{right:monthly expenditure in food items per capita, in curr '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}46.285713{txt},{res}2130.6001{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,241{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:251.038}
+{txt}{col 14}Std. dev.: {res}{ralign 7:156.963}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:114}{ralign 10:     153}{ralign 10:     214}{ralign 10:     303}{ralign 10:   425.5}
+
+{txt}{hline}
+{res}nfoodexp_pc_r2{right:monthly expenditure in non-food items per capita, in curr '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}5.4499998{txt},{res}11147.708{txt}]{col 55}Units: {res}1.000e-07
+{col 10}{txt}Unique values: {res}1,808{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:167.294}
+{txt}{col 14}Std. dev.: {res}{ralign 7:335.377}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:33.625}{ralign 10: 58.1667}{ralign 10: 99.2667}{ralign 10: 181.438}{ralign 10: 328.583}
+
+{txt}{hline}
+{res}totalexp_pc_r2{right:total monthly expenditure per capita, in curr '000 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}61.202381{txt},{res}12677.708{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,867{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:418.332}
+{txt}{col 14}Std. dev.: {res}{ralign 7:433.972}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:160.604}{ralign 10: 224.611}{ralign 10: 327.042}{ralign 10: 485.056}{ralign 10: 738.063}
+
+{txt}{hline}
+{res}foodexp_r_r2{right:monthly expenditure on food items, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}122.23784{txt},{res}20292.338{txt}]{col 55}Units: {res}.00001
+{col 10}{txt}Unique values: {res}1,339{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:1061.69}
+{txt}{col 14}Std. dev.: {res}{ralign 7:775.284}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:494.806}{ralign 10: 651.558}{ralign 10: 895.278}{ralign 10: 1252.12}{ralign 10: 1782.81}
+
+{txt}{hline}
+{res}nfoodexp_r_r2{right:monthly expenditure on non-food items, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}13.273301{txt},{res}41599.805{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,829{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:708.695}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1441.95}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:146.286}{ralign 10:  241.58}{ralign 10: 418.791}{ralign 10: 767.892}{ralign 10: 1398.63}
+
+{txt}{hline}
+{res}totalexp_r_r2{right:total monthly expenditure, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}135.51114{txt},{res}47309.293{txt}]{col 55}Units: {res}.00001
+{col 10}{txt}Unique values: {res}1,879{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:1770.38}
+{txt}{col 14}Std. dev.: {res}{ralign 7:1913.16}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:682.641}{ralign 10: 958.614}{ralign 10: 1342.92}{ralign 10: 2029.51}{ralign 10: 3054.61}
+
+{txt}{hline}
+{res}foodexp_rpc_r2{right:monthly expenditure on food items per capita, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}43.707001{txt},{res}2029.2338{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,622{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:236.442}
+{txt}{col 14}Std. dev.: {res}{ralign 7:146.853}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:107.649}{ralign 10: 144.948}{ralign 10: 202.133}{ralign 10: 284.075}{ralign 10: 400.378}
+
+{txt}{hline}
+{res}nfoodexp_rpc_r2{right:monthly expenditure on non-food items per capita, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}5.1907086{txt},{res}10399.951{txt}]{col 55}Units: {res}1.000e-07
+{col 10}{txt}Unique values: {res}1,855{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:157.219}
+{txt}{col 14}Std. dev.: {res}{ralign 7:313.41}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:31.9742}{ralign 10: 54.9457}{ralign 10: 93.5706}{ralign 10: 170.543}{ralign 10: 308.917}
+
+{txt}{hline}
+{res}totalexp_rpc_r2{right:total monthly expenditure per capita, in real 2006 vnd}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}57.792614{txt},{res}11827.323{txt}]{col 55}Units: {res}1.000e-06
+{col 10}{txt}Unique values: {res}1,884{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:393.661}
+{txt}{col 14}Std. dev.: {res}{ralign 7:405.377}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:151.382}{ralign 10: 212.213}{ralign 10:  307.56}{ralign 10: 454.967}{ralign 10: 689.277}
+
+{txt}{hline}
+{res}sees_dad_daily_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}11{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       269{col 32}0
+{col 20}     1,611{col 32}1
+{col 20}        11{col 32}.
+
+{txt}{hline}
+{res}sees_mom_daily_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}       105{col 32}0
+{col 20}     1,783{col 32}1
+{col 20}         3{col 32}.
+
+{txt}{hline}
+{res}health_worse_than_others_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,395{col 32}0
+{col 20}       493{col 32}1
+{col 20}         3{col 32}.
+
+{txt}{hline}
+{res}mean_disability_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}.55555558{txt}]{col 55}Units: {res}1.000e-08
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,831{col 32}0
+{col 20}        40{col 32}.11111111
+{col 20}         1{col 32}.125
+{col 20}        13{col 32}.22222222
+{col 20}         3{col 32}.33333334
+{col 20}         2{col 32}.44444445
+{col 20}         1{col 32}.55555558
+
+{txt}{hline}
+{res}positive_mean_disability_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,831{col 32}0
+{col 20}        60{col 32}1
+
+{txt}{hline}
+{res}number_meals_day_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}7{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}7{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}         4{col 32}0
+{col 20}         8{col 32}2
+{col 20}       379{col 32}3
+{col 20}       448{col 32}4
+{col 20}       564{col 32}5
+{col 20}       419{col 32}6
+{col 20}        69{col 32}7
+
+{txt}{hline}
+{res}three_meals_per_day_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        12{col 32}0
+{col 20}     1,879{col 32}1
+
+{txt}{hline}
+{res}number_foodgroups_eaten_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}11{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}11{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:6.83236}
+{txt}{col 14}Std. dev.: {res}{ralign 7:2.01001}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:4}{ralign 10:       5}{ralign 10:       7}{ralign 10:       8}{ralign 10:       9}
+
+{txt}{hline}
+{res}food_shortage_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,707{col 32}0
+{col 20}       184{col 32}1
+
+{txt}{hline}
+{res}withdraw_daughter_ifinneed_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}24{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,816{col 32}0
+{col 20}        51{col 32}1
+{col 20}        24{col 32}.
+
+{txt}{hline}
+{res}withdraw_son_ifinneed_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}27{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,830{col 32}0
+{col 20}        34{col 32}1
+{col 20}        27{col 32}.
+
+{txt}{hline}
+{res}hh_cannot_raise_money_r2{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}     1,675{col 32}0
+{col 20}       213{col 32}1
+{col 20}         3{col 32}.
+
+{txt}{hline}
+{res}bmi5{right:5 bmi}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}double{txt})
+
+{col 18}Range: [{res}12.55648{txt},{res}96.903116{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}1,777{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 7:19.2222}
+{txt}{col 14}Std. dev.: {res}{ralign 7:3.45776}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:15.9856}{ralign 10: 17.2584}{ralign 10: 18.6744}{ralign 10: 20.4876}{ralign 10: 22.9098}
+
+{txt}{hline}
+{res}chhealth5{right:5 chhealth}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:chhealth}
+
+{col 18}Range: [{res}1{txt},{res}5{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}5{col 51}{txt}Missing .: {res}1{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         2{col 32}       1{col 42}{txt}very poor
+{col 20}{res}        45{col 32}       2{col 42}{txt}poor
+{col 20}{res}     1,237{col 32}       3{col 42}{txt}average
+{col 20}{res}       534{col 32}       4{col 42}{txt}good
+{col 20}{res}        72{col 32}       5{col 42}{txt}very good
+{col 20}{res}         1{col 32}       .{col 42}
+
+{txt}{hline}
+{res}stunting5{right:5 stunting}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:stunting}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}3{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,654{col 32}       0{col 42}{txt}not stunted
+{col 20}{res}       196{col 32}       1{col 42}{txt}moderately stunted
+{col 20}{res}        38{col 32}       2{col 42}{txt}severely stunted
+{col 20}{res}         3{col 32}       .{col 42}
+
+{txt}{hline}
+{res}thinness5{right:5 thinness}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:thinness}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,692{col 32}       0{col 42}{txt}not thin
+{col 20}{res}       154{col 32}       1{col 42}{txt}moderately thin
+{col 20}{res}        43{col 32}       2{col 42}{txt}severely thin
+{col 20}{res}         2{col 32}       .{col 42}
+
+{txt}{hline}
+{res}z_dailydifficulties_r5{right:Standardized values of dailydifficulties_r5}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-.31075355{txt},{res}15.111602{txt}]{col 55}Units: {res}1.000e-08
+{col 10}{txt}Unique values: {res}28{col 51}{txt}Missing .: {res}0{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-1.3e-08}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-.310754}{ralign 10:-.310754}{ralign 10:-.310754}{ralign 10:-.310754}{ralign 10: .891361}
+
+{txt}{hline}
+{res}NMTMILR5_r5{right:During the last 12 months, how many times did you miss school/work due to illnes}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:NMTMILR5}
+
+{col 18}Range: [{res}0{txt},{res}2{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}3{col 51}{txt}Missing .: {res}49{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}     1,128{col 32}       0{col 42}{txt}0 times
+{col 20}{res}       673{col 32}       1{col 42}{txt}Between 1 and 5 times
+{col 20}{res}        41{col 32}       2{col 42}{txt}More than 5 times
+{col 20}{res}        49{col 32}       .{col 42}
+
+{txt}{hline}
+{res}z_maths_raw_r5{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-2.5201221{txt},{res}3.6402662{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}486{col 51}{txt}Missing .: {res}47{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:.001222}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.995152}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.25464}{ralign 10:-.742038}{ralign 10:-.086201}{ralign 10: .700439}{ralign 10: 1.32189}
+
+{txt}{hline}
+{res}z_read_raw_r5{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-2.8815165{txt},{res}2.6266377{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}411{col 51}{txt}Missing .: {res}43{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-.001048}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.995159}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.36522}{ralign 10:-.690559}{ralign 10: .051874}{ralign 10: .738402}{ralign 10: 1.23909}
+
+{txt}{hline}
+{res}STNPRSR5_r5{right:There are nine steps on this ladder.  Where on the ladder do you feel you person}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}byte{txt})
+{ralign 22:Label}: {res:STNPRSR5}, but {res:7} nonmissing values are not labeled
+
+{col 18}Range: [{res}1{txt},{res}9{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}9{col 51}{txt}Missing .: {res}4{txt}/{res}1,891
+
+{txt}{col 13}Tabulation: Freq.   Numeric  Label
+{col 20}{res}         7{col 32}       1{col 42}{txt}1 (worst)
+{col 20}{res}        21{col 32}       2{col 42}
+{col 20}        61{col 32}       3{col 42}
+{col 20}       195{col 32}       4{col 42}
+{col 20}       516{col 32}       5{col 42}
+{col 20}       428{col 32}       6{col 42}
+{col 20}       348{col 32}       7{col 42}
+{col 20}       203{col 32}       8{col 42}
+{col 20}       108{col 32}       9{col 42}{txt}9 (best)
+{col 20}{res}         4{col 32}       .{col 42}
+
+{txt}{hline}
+{res}katz_norms_r5{right:Standardized values of z_mean_norms}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-3.439862{txt},{res}3.199367{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}1,528{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:.005457}
+{txt}{col 14}Std. dev.: {res}{ralign 8:.998326}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.32228}{ralign 10:-.623261}{ralign 10: .019109}{ralign 10:  .69922}{ralign 10: 1.24106}
+
+{txt}{hline}
+{res}z_selfefficacy_r5{right:Standardized values of selfefficacy}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-5.4182897{txt},{res}4.0593529{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}848{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-1.7e-10}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.30003}{ralign 10:-.607756}{ralign 10: .063373}{ralign 10: .464289}{ralign 10: 1.18383}
+
+{txt}{hline}
+{res}z_agency_r5{right:Standardized values of agency}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.057992{txt},{res}1.8693231{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}67{col 51}{txt}Missing .: {res}4{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-3.0e-09}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.065}{ralign 10:-.233022}{ralign 10:-.205195}{ralign 10: .845287}{ralign 10: 1.06833}
+
+{txt}{hline}
+{res}z_selfsteem_r5{right:Standardized values of selfsteem}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.7114687{txt},{res}3.6526301{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}559{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-4.7e-11}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.39059}{ralign 10: -.56648}{ralign 10:-.040735}{ralign 10: .775338}{ralign 10: 1.19301}
+
+{txt}{hline}
+{res}z_peersr5{right:Standardized values of peers}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.1808963{txt},{res}4.1849523{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}532{col 51}{txt}Missing .: {res}2{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:-4.6e-09}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.17505}{ralign 10:-.610748}{ralign 10: .176917}{ralign 10: .593718}{ralign 10: 1.04769}
+
+{txt}{hline}
+{res}z_pride_r5{right:Standardized values of pride}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-4.0834441{txt},{res}3.0651164{txt}]{col 55}Units: {res}1.000e-09
+{col 10}{txt}Unique values: {res}73{col 51}{txt}Missing .: {res}4{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:1.2e-08}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.09747}{ralign 10:-1.03412}{ralign 10: .015787}{ralign 10: .958885}{ralign 10:  1.0155}
+
+{txt}{hline}
+{res}z_relationparents_r5{right:Standardized values of relationparents}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-5.4039102{txt},{res}1.8824445{txt}]{col 55}Units: {res}1.000e-10
+{col 10}{txt}Unique values: {res}548{col 51}{txt}Missing .: {res}15{txt}/{res}1,891
+
+{txt}{col 19}Mean: {res}{ralign 8:4.6e-10}
+{txt}{col 14}Std. dev.: {res}{ralign 8:1}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 8:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 8:-1.11503}{ralign 10: -.54634}{ralign 10:-.155111}{ralign 10: .697422}{ralign 10: 1.31206}
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/jg898/Dropbox/prediction_YL/2_processed//final_datasets/codebooks/codebook_vietnam.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 8 Dec 2024, 18:41:50
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
